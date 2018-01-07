@@ -1,3 +1,13 @@
+.bg {
+  /* The image used */
+  background-image: url("../images/background.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .bg-black {
   background: black;
   color: white; }
@@ -12,5 +22,8 @@
     font-size: 2em; }
 
 #main-header .port-item:hover {
-  opacity: 0.6;
+  opacity: 0.8;
   cursor: pointer; }
+
+.rounded {
+  border-radius: 0.75rem !important; }
