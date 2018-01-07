@@ -22,8 +22,11 @@
     font-size: 2em; }
 
 #main-header .port-item:hover {
-  opacity: 0.8;
+  opacity: 0.7;
   cursor: pointer; }
 
 .rounded {
   border-radius: 0.75rem !important; }
+
+.op {
+  opacity: 0.9; }
